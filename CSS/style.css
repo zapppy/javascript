@@ -1,0 +1,161 @@
+/*{
+margin:0px;
+padding:0px;
+}*/
+
+body{
+color:gray;
+background-color:black;
+font: bold 15px Arial;
+line-height:1.5em;
+}
+a{
+text-decoration:none;
+color:yellow;
+}
+a:hover{
+color:red;
+}
+a:active{
+color:black;
+}
+
+.container{
+width:100%;
+margin:auto;
+}
+.button{
+color:white;
+background-color:black;
+padding:10px;
+border:5px solid white;
+}
+.button:hover{
+background-color:green;
+}
+.clr{
+clear:both;
+}
+.post1{
+background-color:red;
+border:5px green dotted;
+margin:10px;
+padding:20px;
+}
+.post1 h3{
+font-family:Times new roman;
+font-style:italic;
+font-weight:1000;
+text-decoration:underline;
+text-transform:uppercase;
+letter-spacing:0.2em;
+word-spacing:0.5em;
+}
+.post2{
+background-color:green;
+border:5px red solid; 
+margin:10px;
+padding:20px;
+}
+.post3{
+background-color:blue;
+border:5px red solid; 
+margin:10px;
+padding:20px;
+}
+.categories{
+border:5px red dotted;
+padding:10px;
+margin:20px;
+border-radius:15px;	
+} 
+.categories ul{
+padding:15px;
+list-style:none;
+}
+.categories h3{
+text-align:center;
+}
+.categories li{
+padding:6px;
+border-bottom:5px dotted red;
+list-style-image:url('../css/image/mycss.png');
+}
+.forms{
+padding:20px;
+}
+.myforms{
+padding-bottom:20px;
+}
+.myforms label{
+display:block;
+}
+.myforms input[type = "text"], textarea{
+padding:8px;
+width:100%;
+}
+.block{
+float:left;
+width:33.3%;
+border:1px solid white;
+padding:10px;
+box-sizing:border-box;
+}
+#main-body{
+float:left;
+width:70%;
+padding:15px;
+box-sizing:border-box;
+}
+#sidebar{
+float:right;
+width:30%;
+background-color:blue;
+border:5px solid blue; 
+padding:15px;
+box-sizing:border-box;
+}
+.p-box{
+border:5px solid gray;
+height:500px;
+width:500px;
+margin-top:20px;
+position:relative;
+background-image:url('../css/image/bgm.jpg');
+background-position:200px 20px;
+background-repeat:no-repeat;
+background-position:center;
+}
+.p-box h1{
+position:absolute;
+top:40px;
+left:100px;
+}
+.p-box h3{
+position:absolute;
+bottom:40px;
+right:50px;
+}
+.fix-me{
+position:fixed;
+top:400px;
+}
+.my-list li:first-child{
+background-color:white;
+}
+.my-list li:last-child{
+background-color:purple;
+}
+.my-list li:nth-child(5){
+background-color:orange;
+}
+.my-list li:nth-child(odd){
+background-color:orange;
+}
+.my-list li:nth-child(even){
+background-color:pink;
+}
+
+
+
+
